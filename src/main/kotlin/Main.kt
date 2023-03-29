@@ -13,7 +13,7 @@ fun ind(){
     var evenNames = Names.filter {
         it %2==0
     }
-  return(evenNames)
+  return(Names)
 
 }
 
@@ -22,11 +22,9 @@ fun ind(){
 //Given a list of people’s heights in metres. Write a function that returns
 //the average height and the total height.
 fun calculateHeight(height: Double): Double {
-    var height = 5.5
-    for (h in height){
-        height += h
-    }
-    return (height)
+    var height = mutableListOf(5.5, 6.8, 10.0, 6.0)
+    println(height.average())
+    println(height.sum())
 
 }
 
@@ -51,8 +49,8 @@ data class Human(var names: String, var age:Int, var height: Int, var weight: Do
 
 //Given a list similar to the one above, write a function in which you will
 //create 2 more people objects and add them to the list at one go.
-fun add(){
-
+fun add( topple: List){
+var num =
 }
 
 
@@ -61,9 +59,12 @@ fun add(){
 //all the vehicles in the list.
 
 data class Car(var registration: String, var mileage: Int ){
-var totalMileage = 0.0
-    for (c in cars){
-        totalMileage += car.mi
+    fun calculateMileage(){
+        fun cars(Car:List<>){
+
+        }
+
+
 
     }
 
